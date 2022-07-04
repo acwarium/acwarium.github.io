@@ -14,13 +14,16 @@ body{
     }
 
 /** these are my elements yo **/
-
+    .bar:hover
+    {
+        color:aqua
+    }
     .formint
     {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 60px;
         margin-bottom: 0px;
-        color:rgb(0, 151, 151)
+        color:aqua
     }
 
     .subtext
