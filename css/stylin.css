@@ -1,0 +1,36 @@
+:root {
+    --fg-color: #ffffff;
+    --bg-color: rgba(0, 0, 0, 0.966);
+}
+
+body{
+    padding: 1em;
+    max-width: 2000px;
+    margin: auto;
+    font-family: 'Lora', serif;
+    line-height: 1.4em;
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+    }
+
+/** these are my elements yo **/
+
+    .formint
+    {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        margin-bottom: 0px;
+        color:rgb(0, 151, 151)
+    }
+
+    .subtext
+    {
+        font-size: 21px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .bar
+    {
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
