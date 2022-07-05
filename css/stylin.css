@@ -1,9 +1,9 @@
-:root {
+    :root {
     --fg-color: #ffffff;
     --bg-color: rgba(0, 0, 0, 0.966);
 }
 
-body{
+    body{
     padding: 1em;
     max-width: 2000px;
     margin: auto;
@@ -14,26 +14,74 @@ body{
     }
 
 /** these are my elements yo **/
-    .bar:hover
+
+    p
     {
-        color:aqua
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
+
     .formint
     {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:'Nunito', sans-serif;
         font-size: 60px;
-        margin-bottom: 0px;
+        margin-bottom: 35px;
         color:aqua
+    }
+
+    .gifaqua
+    {
+        width: 540px;
+        height: 220px;
     }
 
     .subtext
     {
-        font-size: 21px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 450;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .subhead
+    {
+        font-family:'Nunito', sans-serif;
+        font-size: 35px;
+        margin-bottom: 35px;
+        color:aqua
     }
 
     .bar
     {
+        color:deeppink;
+        font-weight: 450;
+        transition: color .15s;
         font-size: 18px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        font-family: 'Nunito', sans-serif;
+        text-decoration:none
+    }
+
+    .bar:hover
+    {
+        color:aqua;
+        text-decoration: underline;
+    }
+    
+    .searchbar
+    {
+        font-size: 18px;
+        display: block;
+        padding-left: 111px;
+        width: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pic
+    {
+        height: 200px;
+        margin-right: 10px;
     }
