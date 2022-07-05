@@ -21,6 +21,7 @@
         font-size: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
+        object-fit: contain;
     }
 
     .formint
@@ -28,13 +29,16 @@
         font-family:'Nunito', sans-serif;
         font-size: 60px;
         margin-bottom: 35px;
-        color:aqua
+        color:aqua;
+        text-align: center;
+        object-fit:contain;
     }
 
     .gifaqua
     {
         width: 540px;
         height: 220px;
+        object-fit:contain;
     }
 
     .subtext
