@@ -21,41 +21,48 @@
         font-size: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
+        width: 800px;
         object-fit: contain;
+        color: white;
     }
 
     .formint
     {
         font-family:'Nunito', sans-serif;
-        font-size: 60px;
+        font-size: 70px;
         margin-bottom: 35px;
         color:aqua;
+        font-weight: 590;
         text-align: center;
         object-fit:contain;
     }
 
     .gifaqua
     {
-        width: 540px;
+        width: 600px;
         height: 220px;
-        object-fit:contain;
+        border-radius: 30px;
     }
 
     .subtext
     {
-        font-size: 20px;
+        font-size: 26px;
         font-family: 'Nunito', sans-serif;
         font-weight: 450;
         margin-bottom: 15px;
         display: block;
+        text-decoration: underline;
+        color: deeppink;
     }
 
     .subhead
     {
         font-family:'Nunito', sans-serif;
-        font-size: 35px;
+        font-size: 38px;
         margin-bottom: 35px;
-        color:aqua
+        font-weight: 450;
+        color:aqua;
+        text-decoration:underline;
     }
 
     .bar
@@ -63,7 +70,7 @@
         color:deeppink;
         font-weight: 450;
         transition: color .15s;
-        font-size: 18px;
+        font-size: 22px;
         font-family: 'Nunito', sans-serif;
         text-decoration:none
     }
@@ -86,6 +93,7 @@
 
     .pic
     {
-        height: 200px;
+        height: 215px;
         margin-right: 10px;
+        border-radius: 30px;
     }
