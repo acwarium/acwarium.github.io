@@ -1,12 +1,15 @@
    body{
     padding: 1em;
-    max-width: 4000px;
-    margin: auto;
+    max-width: 2000px;
+    margin-left:auto;
+    margin-right: auto;
     font-family: 'Nunito', sans-serif;
     line-height: 38px;
     color: aqua;
-    font-size: 26px;
-    background-color: rgba(0, 0, 0, 0.966);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.965);
+    text-align: center;
+
     }
 
 /** these are my elements yo **/
@@ -15,28 +18,31 @@
     {
         font-family: 'Nunito', sans-serif;
         font-size: 20px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 800px;
+        margin: auto;
+        width: 700px;
         object-fit: contain;
         color: white;
+        text-align: center;
+
     }
 
     .formint
     {
         font-family:'Nunito', sans-serif;
-        font-size: 70px;
+        font-size: 65px;
         margin-bottom: 35px;
         color:aqua;
-        font-weight: 590;
-        text-align: center;
+        font-weight: 550;
         object-fit:contain;
+        text-align: center;
     }
 
     .gifaqua
     {
         width: 600px;
         height: 220px;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 30px;
         border: 3px solid deeppink;
     }
@@ -50,6 +56,7 @@
         display: block;
         text-decoration: underline;
         color: aqua;
+        text-align: center;
     }
 
     .subhead
@@ -58,8 +65,22 @@
         font-size: 38px;
         margin-bottom: 35px;
         font-weight: 450;
-        color:aqua;
-        text-decoration:underline;
+        display: block;
+        text-decoration: underline;
+        color: aqua;
+        text-align: center;
+    }
+
+    .subheadb
+    {
+        font-family:'Nunito', sans-serif;
+        font-size: 38px;
+        margin-bottom: 35px;
+        font-weight: 450;
+        display: block;
+        text-decoration: none;
+        color: aqua;
+        text-align: center;
     }
 
     .bar
@@ -67,25 +88,21 @@
         color:deeppink;
         font-weight: 450;
         transition: color .15s;
-        font-size: 22px;
+        font-size: 24px;
         font-family: 'Nunito', sans-serif;
-        text-decoration:none
+        text-decoration:none;
+        text-align: center;
     }
 
+    .baro
+    {
+        height: 24px;
+    }
     .bar:hover
     {
         color:aqua;
         text-decoration: underline;
-    }
-    
-    .searchbar
-    {
-        font-size: 18px;
-        display: block;
-        padding-left: 111px;
-        width: 180px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        text-align: center;
     }
 
     .pic
@@ -94,5 +111,7 @@
         margin-top: 30;
         margin-right: 10px;
         border-radius: 30px;
-        border: 3px solid deeppink
+        border: 3px solid deeppink;
+        text-align: center;
+        display: inline-block;
     }
