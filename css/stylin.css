@@ -19,6 +19,8 @@
         width: auto;
         text-align: center;
         color: white;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .formint
@@ -90,6 +92,7 @@
     {
         height: 24px;
     }
+
     .bar:hover
     {
         color:aqua;
@@ -107,4 +110,48 @@
         border: 3px solid deeppink;
         text-align: center;
         display: inline-block;
+    }
+
+    .bloglist
+    {
+        font-family: 'Nunito', sans-serif;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 10%;
+    }
+    
+    .blogtitle
+    {
+        font-family: sans-serif;
+        font-size: 19px;
+        color:deeppink;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 0px;
+        text-decoration:none;
+    }
+
+    .blogtitle:hover
+    {
+        color:aqua;
+        transition: .15s;
+        text-decoration: underline;
+    }
+
+    .blogdate
+    {
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .blogpreview
+    {
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
     }
