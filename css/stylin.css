@@ -15,7 +15,7 @@
     p
     {
         font-family:'Nunito', sans-serif;
-        font-size: 20px;
+        font-size: 17px;
         width: auto;
         text-align: center;
         color: white;
@@ -32,6 +32,13 @@
         font-weight: 550;
         object-fit:contain;
         text-align: center;
+    }
+
+    .blogtitle2
+    {
+        font-size: 26px;
+        text-align: left;
+        font-weight: 450;
     }
 
     .gifaqua
@@ -117,7 +124,6 @@
         font-family: 'Nunito', sans-serif;
         text-align: left;
         font-size: 18px;
-        margin-left: 10%;
     }
     
     .blogtitle
@@ -128,12 +134,14 @@
         margin-top: 0px;
         margin-bottom: 0px;
         line-height: 0px;
+        margin-left: 10%;
         text-decoration:none;
     }
 
     .blogtitle:hover
     {
         color:aqua;
+        margin-left: 10%;
         transition: .15s;
         text-decoration: underline;
     }
@@ -142,6 +150,7 @@
     {
         font-family: 'Nunito', sans-serif;
         font-size: 16px;
+        margin-left: 10%;
         margin-top: 0;
         margin-bottom: 0;
         text-align: left;
@@ -154,4 +163,62 @@
         text-align: left;
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 10%;
+    }
+
+    .contread
+    {
+        text-align: left;
+        color: aqua;
+        margin-left: 10%;
+        text-decoration: none;
+    }
+
+    .contread:hover
+    {
+        color: deeppink;
+        transition: .15s;
+    }
+
+    .actualblogwriting
+    {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    .blogsep
+    {
+        text-align: left;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+
+    .return
+    {
+      text-align: right;
+      font-size: 20px;
+      color: aqua;
+      text-decoration: none;  
+    }
+
+    .return:hover
+    {
+        color: deeppink;
+        text-decoration: underline;
+    }
+
+    .subhead2
+    {
+        text-align: left;
+        font-size: 18px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 450;
+        color: white;
+        margin-left: 25px;
+        margin-bottom: 15px;
     }
